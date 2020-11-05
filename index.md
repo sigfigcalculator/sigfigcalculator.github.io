@@ -3,9 +3,7 @@ title: Sigfig calculator
 ---
 
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script type="text/javascript" src="sig-figs.js"></script>
+
 
 <div class="container">
 <div class="page-header">
@@ -67,9 +65,9 @@ Let's imagine you have a value from a calculation, and need to strip it down to 
 <pre>sf.withSigFigures(3); // returns a SigFloat wrapper of 5420</pre>
 </p>
 </div>
-
-<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="sig-figs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script><script type="text/javascript">
 function showWithSigFigs(numStr, n) {
 var num = parseInt(n);
 var sf = new SigFloat(numStr);
