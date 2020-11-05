@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+---
+title: Sigfig calculator
+---
 <head>
 	<meta charset="UTF-8">
 	<title>Metallacycle &middot; Significant Figures Calculator</title>
@@ -81,4 +82,3 @@ sfworse.trailingZeros(); // returns 0!</pre>
 		}
 	</script>
 </body>
-</html>
