@@ -2,14 +2,15 @@
 title: Sigfig calculator
 ---
 
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="sig-figs.js"></script>
 
 <div class="container">
 <div class="page-header">
 <h1>
-    Significant Figures Calculator
-    <small>math with significance</small>
+Significant Figures Calculator
+<small>math with significance</small>
 </h1>
 </div>
 
@@ -19,7 +20,7 @@ Enter a decimal value below along with a number of significant figures, then cli
 </p>
 <p>
 <form action="" class="form-inline" id="num-sig-figs-form">
-	Express <input id="number" type="number" class="form-control" style="width: 140px;" placeholder="Number" /> to <input id="num-sig-figs" type="number" class="form-control" style="width: 80px;" placeholder="Integer" /> significant figure(s).
+Express <input id="number" type="number" class="form-control" style="width: 140px;" placeholder="Number" /> to <input id="num-sig-figs" type="number" class="form-control" style="width: 80px;" placeholder="Integer" /> significant figure(s).
 </form>
 </p>
 <p>
