@@ -8,10 +8,9 @@ title: Sigfig calculator
 
 <div class="container">
 <div class="page-header">
-<h1>
-Significant Figures Calculator
+<h2>Significant Figures Calculator</h2>
 <small>math with significance</small>
-</h1>
+
 </div>
 
 <h2>Testing</h2>
