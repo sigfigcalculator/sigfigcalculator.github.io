@@ -10,7 +10,7 @@ title: Significant Figures Calculator
 
 </div>
 
-<h2>Testing</h2>
+<h2>How it works:</h2>
 <p>
 Enter a decimal value below along with a number of significant figures, then click the button to display the value with the desired number of significant figures.
 </p>
