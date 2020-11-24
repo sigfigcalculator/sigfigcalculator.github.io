@@ -31,6 +31,7 @@ The significant figures of a number written in positional notation are digits th
 
 <h2>Examples of significant figure calculations:</h2>
 <p>
+  
 * 7 has 1 significant figure (7).
 * 73 has 2 significant figures (7 and 3).
 * 100 has 1 significant figure (1).
