@@ -1,5 +1,5 @@
 ---
-title: Sigfig calculator
+title: Significant Figures Calculator
 ---
 
 
