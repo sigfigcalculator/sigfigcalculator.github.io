@@ -32,21 +32,21 @@ The significant figures of a number written in positional notation are digits th
 <h2>Examples of significant figure calculations:</h2>
 <p>
   
-<li>* 7 has 1 significant figure (7)</li>
+<li>7 has 1 significant figure (7).</li>
 
-<li>* 73 has 2 significant figures (7 and 3)</li>
+<li>73 has 2 significant figures (7 and 3).</li>
 
-<li>* 100 has 1 significant figure (1)</li>
+<li>100 has 1 significant figure (1).</li>
 
-<li>* 673 has 3 significant figures (6, 7 and 3)</li>
+<li>673 has 3 significant figures (6, 7 and 3).</li>
 
-<li>* 673.52 has 5 significant figures (6, 3, 7, 5 and 2)</li>
+<li>673.52 has 5 significant figures (6, 3, 7, 5 and 2).</li>
 
-<li>* 0.0637 has 3 significant figures (6, 3 and 7)</li>
+<li>0.0637 has 3 significant figures (6, 3 and 7).</li>
 
-<li>* 30.00 has 4 significant figures (3, 0, 0 and 0) and 2 decimals</li>
+<li>30.00 has 4 significant figures (3, 0, 0 and 0) and 2 decimals.</li>
 
-<li>* 0.0025 has 2 significant figures (2 and 5) and 4 decimals</li>
+<li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
 
 </p>
 </div>
