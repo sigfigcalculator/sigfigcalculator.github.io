@@ -26,41 +26,7 @@ Express <input id="number" type="number" class="form-control" style="width: 140p
 
 <h2>The Basics</h2>
 <p>
-Create a new <code>SigFloat</code> using a string or number argument like so. Negative numbers and scientific notation are both supported.
-
-<pre>var sf = new SigFloat('5420.5400'); // trailing zeros are significant
-var sfworse = new SigFloat('5400');</pre>
-
-SigFloats can be expressed as strings (<code>toString()</code>), strings with fixed decimal place (<code>toFixed()</code>), or as floats with trailing zeros removed (<code>toFloat()</code>).
-</p>
-
-<p>
-Access the number of significant figures in a SigFloat using the <code>sigFigures</code> function.
-
-<pre>sf.sigFigures(); // returns 8
-sfworse.sigFigures(); // returns 2</pre>
-</p>
-
-<p>
-Trailing zeros to the right of the decimal point are considered significant, because the last digit to the right of the decimal point is always considered significant and zeros between significant digits are themselves significant. If these rules seem arbitrary, just ask yourself: why the heck is that last digit there, if not to indicate significance? Even if the last digit is "0," the point of writing it down is to show that the measurement was just that darn good, even if it happened to "land" on zero. There is something inherently better about the measurement "3.5000" as compared to plain old "3.5," even if the true value for both is 3.5 with zero repeating forever following the 5. What's better about the former measurement is the significance of that last zero&mdash;it indicates that the measurement is extremely precise.
-</p>
-
-<p>
-What about zeros to the <em>left</em> of the decimal point, you ask? If they simply lead out from the decimal point to numbers with real meaning, they're just placeholders. However, if the zeros fall <em>between</em> non-zero numbers with real meaning, then they have meaning too&mdash;in this case they are significant. A good practice involves thinking about writing the number in scientific notation: any zeros you'd get rid of to write the number in scientific notation are not significant digits. After all, they can be removed without the loss of any meaningful information!
-</p>
-
-<p>
-Trailing zeros are a little tricky to deal with computationally, because they are removed upon casting to any sort of numeric type. This means that significant digits are lost if a quantity with trailing zeros is carried through calculations on a computer. You'll notice this problem when working with Microsoft Excel&mdash;with annoying stubbornness, it removes trailing zeros unless specifically told to retain a certain number of decimal places. The <code>trailingZeros</code> function, found in the SigFloat prototype, returns the number of trailing zeros in a SigFloat.
-
-<pre>sf.trailingZeros(); // returns 2
-sfworse.trailingZeros(); // returns 0!</pre>
-</p>
-
-<h2>Using a Specific Number of Sig Figs</h2>
-<p>
-Let's imagine you have a value from a calculation, and need to strip it down to a particular number of significant figures. This is done by rounding the number off after the correct number of significant figures have been reached. The number "65789" would become "66000" if only two significant figures were warranted. The number "65.789" would become "66" in the same situation. With sig-figs.js, you can express a SigFloat to a specific number of significant figures using the <code>withSigFigures</code> function. It takes one argument corresponding to the number of significant figures you'd like in the returned SigFloat.
-
-<pre>sf.withSigFigures(3); // returns a SigFloat wrapper of 5420</pre>
+The significant figures of a number written in positional notation are digits that carry meaningful contributions to its measurement resolution. This includes all digits except: All leading zeros. 
 </p>
 </div>
 
