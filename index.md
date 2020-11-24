@@ -33,13 +33,21 @@ The significant figures of a number written in positional notation are digits th
 <p>
   
 * 7 has 1 significant figure (7).
+
 * 73 has 2 significant figures (7 and 3).
+
 * 100 has 1 significant figure (1).
+
 * 673 has 3 significant figures (6, 7 and 3).
+
 * 673.52 has 5 significant figures (6, 3, 7, 5 and 2).
+
 * 0.0637 has 3 significant figures (6, 3 and 7).
+
 * 30.00 has 4 significant figures (3, 0, 0 and 0) and 2 decimals.
+
 * 0.0025 has 2 significant figures (2 and 5) and 4 decimals.
+
 </p>
 </div>
 
