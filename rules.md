@@ -2,7 +2,7 @@
 title: Significant Figures Rules 
 ---
 
-# Rules 
+# Sig fig Rules 
 
 There are three rules on determining how many significant figures are in a number:
 
