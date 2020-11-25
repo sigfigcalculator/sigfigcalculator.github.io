@@ -3,22 +3,20 @@ title: Significant Figures Calculator
 ---
 
 
-<div class="container">
-<div class="page-header">
-<h2>Significant Figures Calculator</h2>
-<small>math with significance</small>
+# Significant Figures Calculator
 
-</div>
+math with significance
 
-<h2>How it works:</h2>
-<p>
+## How it works:
+
 Enter a decimal value below along with a number of significant figures, then click the button to display the value with the desired number of significant figures.
-</p>
-<p>
+
+
 <form action="" class="form-inline" id="num-sig-figs-form">
 Express <input id="number" type="number" class="form-control" style="width: 140px;" placeholder="Number" /> to <input id="num-sig-figs" type="number" class="form-control" style="width: 80px;" placeholder="Integer" /> significant figure(s).
 </form>
-</p>
+
+
 <p>
 <button class="btn btn-primary" onclick="if(parseInt($('#num-sig-figs').val()) > 0 && parseFloat($('#number').val())) { showWithSigFigs($('#number').val(), $('#num-sig-figs').val()); $('#num-sig-figs-form').removeClass('has-error'); } else { $('num-sig-figs-form').addClass('has-error'); }">Do It!</button>
 <span class="btn btn-success disabled" id="output">Output</span>
