@@ -2,6 +2,8 @@
 title: Significant Figures Rules 
 ---
 
+# Rules 
+
 There are three rules on determining how many significant figures are in a number:
 
 1. Non-zero digits are always significant.
