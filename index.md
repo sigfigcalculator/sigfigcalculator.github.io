@@ -27,6 +27,10 @@ Express <input id="number" type="number" class="form-control" style="width: 140p
 The significant figures of a number written in positional notation are digits that carry meaningful contributions to its measurement resolution. This includes all digits except: All leading zeros. 
 </p>
 
+<h2>Video Explanation</h2> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCJ76hz7jPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h2>Examples of significant figure calculations:</h2>
 <p>
   
@@ -47,6 +51,8 @@ The significant figures of a number written in positional notation are digits th
 <li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
 
 </p>
+
+
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
