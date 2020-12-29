@@ -47,7 +47,7 @@ The significant figures of a number written in positional notation are digits th
 <li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
 
 </p>
-</div>
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="sig-figs.js"></script>
