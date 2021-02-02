@@ -54,7 +54,7 @@ The significant figures of a number written in positional notation are digits th
 
 </p>
 
-
+<script data-ad-client="ca-pub-9285318390568770" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
