@@ -7,6 +7,18 @@ title: Significant Figures Calculator
 
 math with significance
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- SigfigcalculatorUnit -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9285318390568770"
+     data-ad-slot="4206267306"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## How it works:
 
 Enter a decimal value below along with a number of significant figures, then click the button to display the value with the desired number of significant figures.
