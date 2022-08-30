@@ -50,29 +50,26 @@ The significant figures of a number written in positional notation are digits th
 <li>120 has 3 significant figures (1, 2, 0)</li>
 </ul>
 
+<h2>Video Explanation</h2> 
 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/eCJ76hz7jPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h2>Examples of significant figure calculations:</h2>
-<p>
+ <h2>Examples of significant figure calculations:</h2>
+ <p>
   
 <li>7 has 1 significant figure (7).</li>
-
 <li>73 has 2 significant figures (7 and 3).</li>
-
 <li>100 has 1 significant figure (1).</li>
-
 <li>673 has 3 significant figures (6, 7 and 3).</li>
-
 <li>673.52 has 5 significant figures (6, 3, 7, 5 and 2).</li>
-
 <li>0.0637 has 3 significant figures (6, 3 and 7).</li>
-
 <li>30.00 has 4 significant figures (3, 0, 0 and 0) and 2 decimals.</li>
+ <li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
 
-<li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
+ </p>
 
-</p>
-</div>
+ <script data-ad-client="ca-pub-9285318390568770" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="sig-figs.js"></script>
