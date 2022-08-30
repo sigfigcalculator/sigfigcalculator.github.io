@@ -5,7 +5,9 @@ title: Significant Figures Calculator
 
 # Significant Figures Calculator
 
-math with significance
+The Significant Figures Calculator will help you rapidly calculate the number of significant figures in an expression or a number. In addition, it will show you how to add zero before any given digit and remove one from the last digit of a given series (e.g., 2456).
+
+This quick reference tool is easy to use and can be opened as often as needed with no time limits. If your work depends on significant figures, this app is mandatory.
 
 ## How it works:
 
@@ -26,10 +28,29 @@ Express <input id="number" type="number" class="form-control" style="width: 140p
 <p>
 The significant figures of a number written in positional notation are digits that carry meaningful contributions to its measurement resolution. This includes all digits except: All leading zeros. 
 </p>
+<p>The number of digits that are known with certainty plus one digit that is estimated is called significant figures.</p>
+<p>For example, if a number is known to be between 1 and 10, it has one significant figure. If a number is known to be between 10 and 100, it has two significant figures.  The estimated digit is always the first digit to the right of the known digits. In the example above, the estimated digit would be 1 for the number between 1 and 10, and 10 for the number between 10 and 100. </p>
+<p>The estimated digit is always rounded up or down to the nearest known digit. So, in the example above, the number between 1 and 10 would be rounded up to 2, and the number between 10 and 100 would be rounded down to 9. </p>
+<p>The significant figures of a number can be used to estimate the uncertainty of that number. The more significant figures a number has, the more certain it is.  For example, if a number is known to be between 1 and 10, it has one significant figure. This means that the number could be anywhere between 1 and 10, so the uncertainty is 9.  If a number is known to be between 10 and 100, it has two significant figures. This means that the number could be anywhere between 10 and 100, so the uncertainty is 90. </p>
+<p>The significant figures of a number can also be used to estimate the precision of that number. The more significant figures a number has, the more precise it is. </p>
+<p>For example, if a number is known to be between 1 and 10, it has one significant figure. This means that the number could be anywhere between 1 and 10, so the precision is 1.  If a number is known to be between 10 and 100, it has two significant figures. This means that the number could be anywhere between 10 and 100, so the precision is 10.</p>
 
-<h2>Video Explanation</h2> 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCJ76hz7jPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Steps How to calculate significant figures</p>
+<ol>
+<li>Find the first non-zero digit in the number</li>
+<li>Count the number of digits from the first non-zero digit to the end of the number</li>
+<li>The number of significant figures is equal to the number of digits counted in Step 2</li>
+</ol>
+<p>For example:</p>
+<ul>
+<li>0.004321 has 4 significant figures (4, 3, 2, 1)</li>
+<li>0.01 has 2 significant figures (1, 0)</li>
+<li>1.234 has 4 significant figures (1, 2, 3, 4)</li>
+<li>120 has 3 significant figures (1, 2, 0)</li>
+</ul>
+
+
 
 <h2>Examples of significant figure calculations:</h2>
 <p>
@@ -51,9 +72,7 @@ The significant figures of a number written in positional notation are digits th
 <li>0.0025 has 2 significant figures (2 and 5) and 4 decimals.</li>
 
 </p>
-
-<script data-ad-client="ca-pub-9285318390568770" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+</div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="sig-figs.js"></script>
